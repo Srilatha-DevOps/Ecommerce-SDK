@@ -1,5 +1,5 @@
 # Automated Ecommerce checkout process
-This project can help you to deploy the infrastructure using AWS python SDK. Please note that the current project will help you to create the end to end infrastrcuture, because the AWS SDK doesn't provide a way to store the resource state. Please add the necessary modify modules according to the need.
+This project can help you to deploy the infrastructure using AWS python SDK. Please note that the AWS SDK doesn't provide a way to store the resource statecurrent, so this project will help you to create the end to end infrastrcuture. Please add the necessary modify modules according to the need.
 
 Architecture:
 
