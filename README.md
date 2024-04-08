@@ -10,9 +10,9 @@ Architecture:
 
 
 Before you deploy:
-* Make Sure you execute script.sh in Docker file. This will make sure to create a ECR Repo, Build the docker image and push it into the repo.
-* Once the image is ready, please replace the image_uri variables in src/variables.py
-* The email.zip in the src folder is include with necessary dependencies for the Email Lambda function. If want to test the end to end model, please extract the content of email.zip and replace the email id in 'email.py'. Also, verify the same email in AWS SES.
+* Make sure to change the necessary AWS account information in script.sh in Docker file and exeucte it. This will make sure to create a ECR Repo, Build the docker image and push it into the repo.
+* Once the image is ready, please replace the 'image_uri' variable in src/variables.py with your own.
+* The email.zip in the src folder is include with necessary dependencies for the Email Lambda function. If you want to test the end to end model, please extract the content of email.zip and replace the email id in 'email.py'. Also, verify the same email in AWS SES.
 
 Instructions to deploy the architecture:
 
